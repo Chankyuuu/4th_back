@@ -44,3 +44,4 @@ jobs:
         push: true
         # DOKER BUILD -T KIMHYEYEON2/IMAGE/TAGS
         tags: ${{ secrets.DOCKERHUB_USERNAME }}/1teamspringapp:1.0
+        
