@@ -3,7 +3,7 @@ services:
   app:
     container_name: work-container
     # build: .
-    image: chankyuu/1teamspringapp:ffa46a975f6ebe405222108184872003a43925b3
+    image: chankyuu/1teamspringapp:1.0
     depends_on:  #database 먼저 하고 와줘
       - database
     ports:
